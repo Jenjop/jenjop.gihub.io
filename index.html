@@ -1,11 +1,361 @@
+<!--
+TODO
+
+Experience
+Update Education
+Projects
+ -->
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
+
 <head>
-	<title>
-		WIP
-	</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Website | Longinus' Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
 <body>
-	<h1>
-		Come Back Later
-	</h1>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <!-- <li>
+                <a href="#experience">Experience</a>
+            </li> -->
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Longinus Pun</h1>
+            <h2>Software Engineer</h2>
+            <a href="Longinus_Pun_Resume_4_2_20.pdf" class="btn-rounded-white">Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a rising fourth year and currently studying Computer Science and Business Information Management at UCI. I'm interested in both neural networks and fullstack development and looking to gain professional experience through internships.
+                        <br><br>
+                        I am an active member and current Creative Director of Jodaiko at UCI.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <!-- Change Education color if adding this back in (styles.scss) -->
+    <!-- <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+        </div>
+    </div> -->
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of California, Irvine</h3>
+            <span class="education-date">Sept 2017 - </span>
+            <h4>Bachelor of Science in Computer Science and Business Information Management</h4>
+            <p>
+                Expected to graduate June 2021. GPA 3.5
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Torrey Pines High School</h3>
+            <span class="education-date">Sept 2013 - June 2017</span>
+            <h4>
+                Graduated in 2017
+            </h4>
+            <!-- <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+            </ul> -->
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="project shadow-large no-image">
+                    <div class="project-info">
+                        <h3>State Farm Distracted Driving Classification</h3>
+                        <p>
+                            Jupyter notebook showcasing an analysis of VGG16 performance on State Farm's Distracted Driving dataset on Kaggle. Makes use of transfer learning on PyTorch's VGG16 model pretrained on ImageNet.
+                        </p>
+                        <a href="https://github.com/Jenjop/DistractedDrivingVGG16" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large no-image">
+                    <!-- <div class="project-image"> -->
+                        <!--Empty Image-->
+                        <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="300" height="300"/> -->
+                    <!-- </div> -->
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Checkers AI</h3>
+                        <p>
+                            A Checkers artifiial intelligence created for CS171. Uses Minmax and Alpha-beta pruning among other heuristics to search for solutions.
+                        </p>
+                        <a href="https://github.com/Jenjop/Checkers_AI" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/CakeDecorator.png" width="300" height="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Cake Decorator</h3>
+                        <p>
+                            A webgame created at LA Hacks 2018 to decorate a cake. Your final creation is judged and given a rating.
+                        </p>
+                        <a href="https://github.com/Jenjop/cake_decorator" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/PyGameColumns.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>PyGame Columns</h3>
+                        <p>
+                            Implemented Columns in PyGame. Graphical interface is controlled with keyboard inputs.
+                        </p>
+                        <a href="https://github.com/Jenjop/ICS32A/tree/master/Columns%20Game" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <a id="view-more-projects" href="#">View More Projects</a>
+                <div id="more-projects" class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/LightsOut.png" width="300" height="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Lights Out</h3>
+                            <p>
+                                Implemented Lights Out game in Mathematica with solutions for randomly generated boards.
+                            </p>
+                            <a href="https://github.com/Jenjop/Mathematica/tree/master/LightsOut"> target="_blank"View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/ImageDisplacement.png" width="300" height="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Image Displacements</h3>
+                            <p>
+                                Created demonstration of new functionality in Mathematica displaying differences in images.
+                            </p>
+                            <a href="https://demonstrations.wolfram.com/MappingDisplacementBetweenImages" target="_blank">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large no_image">
+                        <div class="project-image">
+                            <img src="images/RedditThreadClone.jpg" width="300" height="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Reddit Thread Clone</h3>
+                            <p>
+                                Android app imitating thread behavior on Reddit using Google Firebase.
+                            </p>
+                            <a href="https://github.com/Jenjop/RedditClone" target="_blank">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>PyTorch</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>Android: Kotlin</li>
+            <li>Mathematica</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>SQL</li>
+            <li>Fusion360</li>
+            <li>Microsoft Excel Solver</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/mpzyrgpd">
+                <input type="hidden" name="_subject" value="Contact request from Portfolio Site" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Longinus Pun
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Jenjop/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/longinuspun/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
